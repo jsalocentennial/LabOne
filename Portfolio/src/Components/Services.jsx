@@ -1,6 +1,14 @@
 const Services = () => {
     return (
-        <h1>Services</h1>
+        <div>
+            <h1>Services</h1>
+            <p>Here are the services I offer:</p>
+            <ul>
+                <li>Project Management</li>
+                <li>Game Development</li>
+                <li>Tutoring</li>
+            </ul>
+        </div>
     )
 }
 
