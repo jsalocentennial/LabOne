@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import "../styles/contact.css";
 
 const Contact = () => {
     
@@ -24,14 +25,14 @@ const Contact = () => {
 };
     
     return (
-        <div>
+        <div className="contact-container">
             <h1>Contact</h1>  
                 <h2>Contact Information</h2>
                     <p>Email:Jsalo@my.centennialcollege.ca</p>
                     <p>Phone: 705-222-2222</p>
             <h2>Send a Message</h2>
             
-            <form onSubmit={handleSubmit}>
+            <form className="contact-form" onSubmit={handleSubmit}>
                 <label htmlFor="fName">First Name:</label>
                     <input type="text" id="fName" value={firstName} onChange={(event) => setFirstName(event.target.value)} name="fName" required />
                 
@@ -49,7 +50,6 @@ const Contact = () => {
                 
                 <button type="submit">Send Message</button>
             </form>
-            
         </div>
     )
 }

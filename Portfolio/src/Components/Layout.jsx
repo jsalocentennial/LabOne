@@ -1,20 +1,21 @@
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import "../styles/Layout.css";
 
 const Layout = () => {
     return (
-        <div>
-            <h1>Portfolio</h1>
-            <nav>
-                <Link to="/"> Home</Link> | 
-                <Link to="/about">About</Link> | 
-                <Link to="/projects"> Projects</Link> |
-                <Link to="/education"> Education</Link> |
-                <Link to="/services"> Services</Link> |
-                <Link to="/contact"> Contact</Link>
-            </nav>
-            
+        <div className="layout">
+            <h1 className="site-title">Portfolio</h1>
 
-            <hr></hr>
+            <nav className="navbar">
+                <Link to="/">Home</Link> | 
+                <Link to="/about">About</Link> | 
+                <Link to="/projects">Projects</Link> |
+                <Link to="/education">Education</Link> |
+                <Link to="/services">Services</Link> |
+                <Link to="/contact">Contact</Link>
+            </nav>
+
+            <hr />
         </div>
     )
 }
