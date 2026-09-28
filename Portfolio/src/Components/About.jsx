@@ -21,9 +21,7 @@ const About = () => {
                     <li>HTML/CSS</li>
                     <li>SQL/Oracle</li>
                 </ul>
-                <Link to="JSTechResume.pdf" target="_blank" rel="noopener noreferrer"> /*Link to resume*/ */
-                    Download Resume
-                </Link>
+                
             
         </div>
     )
