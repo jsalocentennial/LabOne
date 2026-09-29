@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import "../styles/contact.css";
+import "../styles/Contact.css";
 
 const Contact = () => {
     
