@@ -5,6 +5,22 @@
     box-shadow: 0 6px 0 #111;
 }
 
+.layout_content {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    flex-grow: 1;
+}
+
+.logo_photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
 .site-title {
     color: #e8d5a3;
     font-family: monospace;
