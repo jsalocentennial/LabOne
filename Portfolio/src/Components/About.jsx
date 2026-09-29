@@ -37,7 +37,7 @@ const About = () => {
                             <li>SQL/Oracle</li>
                         </ul>
 
-                        <a href="/files/Resume.pdf" download target="_blank" rel="noopener noreferrer">
+                        <a href="/files/JS Tech Resume.pdf" download target="_blank" rel="noopener noreferrer">
                             <button className="download-resume-button">Download Resume</button>
                         </a>
                 </div>

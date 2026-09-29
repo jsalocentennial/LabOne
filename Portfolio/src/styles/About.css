@@ -21,6 +21,12 @@
     box-shadow: 4px 4px 0 #0d0d0d;
 }
 
+.about-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
 .about-text h2 {
     color: #d4af37;
 }
@@ -32,9 +38,12 @@
 
 .about-text ul {
     display: inline-block;
-    text-align: center;
-    list-style-type: none;
+    text-align: left;
 
+}
+
+.about-text a {
+    text-align: center;
 }
 
 @media (max-width: 700px) {
